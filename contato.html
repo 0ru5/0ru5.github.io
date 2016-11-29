@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Loja do Yuri - Contato</title>
+		<meta charset="ISO-8859-1">
+		<style type="text/css">@import url("css/estilo.css");
+		</style>
+		<script type="text/javascript">
+		                    
+		  function limpar() {
+                       document.getElementById("contato").reset();
+                                             
+                                  }
+
+               function enviar(){
+
+                        alert("Mensagem enviada com sucesso!");
+                                }
+         
+                 </script>
+	</head>
+	<body>
+	<font color="FFFFFF">
+		<header>
+			<div class="logo">
+			<center><img src=imagem/violino-preto.png></center>
+			<div id="menu">
+			<a href="index.html">Página Inicial</a>
+			<a href="historia.html">História</a>
+			<a href="instrumentos.html">Preços</a>
+			<a href="curiosidades.html">Curiosidades</a>
+			<a href="contato.html">Contato</a>
+			</div>
+		</header>
+		
+		<h2>CONTATO</h2><br>
+		<div class="dados">
+			<form id="contato">
+                         Nome:
+                         <input type="text" name="nome"><br><br>
+                         Email:
+                         <input type="text" name="email"><br><br>
+                         Mensagem:<br>
+                         <textarea rows="10" cols="30" maxlength="500"></textarea><br>
+                        </form>
+		</div>
+                     
+		        <form>
+			<button onclick="enviar()">Enviar</button>
+		     <input type="button" onclick="limpar()" value="Limpar">
+			</form><br>
+	<footer>
+	Desenvolvido por Yuri Soares © 2016
+	</footer>
+	</font>
+	</form>
+	</body>
+	
